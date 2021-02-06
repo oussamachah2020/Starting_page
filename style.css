@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  background-color: rgba(177, 212, 212, 0.89);
+}
+
+.container {
+  background-image: url("image/connection.jpg");
+  background-size: cover;
+  border: 1px solid black;
+  margin: 50px 15% 0 15%;
+  height: 75vh;
+  border-radius: 20px;
+}
+
+.container p.Name, .container h2.Greating, .container p#Lorem, .container #Paragraphe {
+  margin-left: 40px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h2.Greating {
+  font-weight: bold;
+}
+
+.container p#Lorem {
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
+  font-size: smaller;
+  font-weight: 200;
+}
+
+.container h3 {
+  color: white;
+  padding: 50px 0 0 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container #Paragraphe {
+  font-size: small;
+  width: 50%;
+}
+
+button[type="submit"] {
+  border: none;
+  outline: none;
+  margin: 20px 0 20px 100px;
+  border-radius: 50px;
+  padding: 12px 90px 12px 90px;
+  -webkit-box-shadow: 1px 5px 10px black;
+          box-shadow: 1px 5px 10px black;
+  background: -webkit-gradient(linear, left top, right top, from(#7b2fc2), color-stop(#2050d4), color-stop(skyblue), to(aqua));
+  background: linear-gradient(to right, #7b2fc2, #2050d4, skyblue, aqua);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Circle img {
+  margin-left: 600px;
+  -webkit-transform: translateY(-120%);
+          transform: translateY(-120%);
+}
+
+.Circle .paragraph, .Circle #Logo {
+  color: white;
+  -webkit-transform: translateY(-81vh);
+          transform: translateY(-81vh);
+  margin-left: 101vh;
+}
+
+.Circle .paragraph {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.Circle #Logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  position: relative;
+  bottom: 35px;
+}
+
+@media all and (max-width: 600px) {
+  .container, .Circle {
+    min-width: 100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
